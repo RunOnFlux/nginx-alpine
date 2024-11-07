@@ -22,7 +22,7 @@ I will show you an example that you can use to deploy SFTP + Nginx containers on
 
 The SFTP repo that is used in this example: ```https://hub.docker.com/r/atmoz/sftp/```
 
-Please keep in mind, your user, uid, gid, and all directory paths specified in the Flux data field should be in harmony with directories set and used by the containers. The atmoz sftp server uses the username you specified to create the directory. ex ```/home/nginx`` 
+Please keep in mind, your user, uid, gid, and all directory paths specified in the Flux data field should be in harmony with directories set and used by the containers. The atmoz sftp server uses the username you specified to create the directory. ex ```/home/nginx``` 
 
 In this example you will see that I chose to add an uploads directory as the directory for uploads to go and for nginx to use.
 
@@ -61,7 +61,7 @@ After deployment, you will need to access the management section of Flux in orde
 3. You will see a secondary sidebar. You can manage your instance from here.
 
 
-##Public Endpoint For The Web Server##
+### Public Endpoint For The Web Server ###
 
 The public endpoints for your webserver will be as follows;
 
@@ -83,7 +83,7 @@ ex. https://sftpnginx.app.runonflux.io/ & https://sftpnginx.app2.runonflux.io/
 
 2. Edit the newly created users.conf file to include this line:
 
-nginx:FluxTestPass:101:101:uploads
+```nginx:FluxTestPass:101:101:uploads```
 
 *Refer to the SFTP docker repo for a full explanation of how to specify users.
 
