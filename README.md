@@ -102,7 +102,7 @@ ex. https://sftpnginx.app.runonflux.io/ & https://sftpnginx.app2.runonflux.io/
 
 ### Using Public/Private Key Only To Login The SFTP Server ###
 
-1. You need to update the users.conf file; ```nginx::101:uploads`
+1. You need to update the users.conf file; ```nginx::101:uploads```
 
 2. You will need to copy your public key into the proper directory for your user and persist it.
 
