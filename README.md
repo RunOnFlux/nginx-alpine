@@ -2,7 +2,8 @@
 Nginx Alpine Web Server with custom configurations.
 
 Build from source:
-```git clone https://github.com/RunOnFlux/nginx-alpine.git``
+
+```git clone https://github.com/RunOnFlux/nginx-alpine.git```
 
 ```cd nginx-alpine```
 
