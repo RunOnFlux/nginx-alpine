@@ -4,7 +4,7 @@
 HTML_DIR=${HTML_DIR:-/home/nginx/uploads}
 
 # Path to the nginx config file
-CONF_FILE="/etc/nginx/conf.d/default.conf"
+CONF_FILE=${CONF_FILE:-/etc/nginx/conf.d/default.conf}
 
 # Modify default.conf to point to the correct HTML directory
 if sed -i "s|root[[:space:]]*/usr/share/nginx/html;|root $HTML_DIR;|" "$CONF_FILE"; then
