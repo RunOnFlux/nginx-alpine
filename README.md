@@ -16,7 +16,7 @@
 ```docker build -t yourusername/nginx:alpine-dev .```
 
 
-## Getting Your Deployment Started On Flux##
+## Getting Your Deployment Started On Flux ##
 
 I will show you an example that you can use to deploy SFTP + Nginx containers on Flux to create a dynamic web server enviornment. 
 
